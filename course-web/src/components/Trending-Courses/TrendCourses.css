@@ -1,0 +1,171 @@
+.trending-course__top {
+    text-align: left;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trending-section__heading h3 {
+    padding-top: 0.8rem;
+}
+
+.slide-button__block {
+    display: flex;
+    align-items: center;
+}
+
+.slide-btn {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slide-btn:first-child {
+    margin-right: 0.5rem;
+}
+
+.slide-icon {
+    font-size: 1.5rem;
+}
+
+.course-item__picture img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.course-meta__block {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem 1rem;
+    font-family: var(--lexend-font);
+    color: #2c2c2c;
+    padding-bottom: 1rem;
+}
+
+.course-flex {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.course-icon {
+    font-size: 1.2rem;
+}
+
+.course-star-rating span {
+    font-weight: 400;
+}
+
+.course-meta__information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.course-price__cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+}
+
+.course-content {
+    padding: 1rem 1.5rem;
+}
+
+.course-item__title-block p {
+    font-family: var(--hind-font);
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    line-height: 1.4;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    text-align: left;
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+.course-meta__information {
+    font-family: var(--hind-font);
+    font-weight: 400;
+    color: #2c2c2c;
+    text-transform: capitalize;
+    letter-spacing: 0.3px;
+    color: #808080;
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+}
+
+.course-description p {
+    font-family: var(--hind-font);
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.course-price__cta {
+    padding-top: 1rem;
+}
+
+.enrolled-price span ins {
+    text-decoration: none;
+    margin-right: 0.4rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 0.4px;
+    color: #2c2c2c;
+}
+
+.enrolled-price span del {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    color: #808080;
+}
+
+.course-cta a {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.course-cta a span {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.arrow-icon {
+    margin-top: 0.3rem;
+}
+
+.cta-vertical-line {
+    border-right: 1px solid #ccc;
+    height: 40px;
+}
+
+.course-item {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+
+.trending-course__section .slick-slide>div {
+    margin: 0 7px;
+}

@@ -1,0 +1,78 @@
+.product-item__information {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: var(--hind-font);
+}
+
+.product-item__information .product-item__picture {
+    max-width: 10rem;
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-item__information .product-item__picture img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.product-item__content h4,
+.product-item__content p {
+    margin: 0;
+}
+
+.product-item__content h4 {
+    font-size: 1.1rem;
+    letter-spacing: 0.7px;
+    font-weight: 500;
+    color: #2c2c2c;
+}
+
+.product-item__content p {
+    font-size: 1rem;
+    color: #2c2c2c;
+    letter-spacing: 0.7px;
+    font-family: var(--poppins-font);
+    font-weight: 400;
+    padding-block: 0.1rem;
+}
+
+.product-item__content span {
+    font-family: var(--poppins-font);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding-top: 0.6rem;
+}
+
+.product-item__content button {
+    padding: 0.3em 0em 0 0;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    font-family: var(--poppins-font);
+    background-color: #fff;
+    border: 0;
+    border-bottom: 1px solid #2c2c2c;
+    font-weight: 500;
+}
+
+.product-item__quantity {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.product-item__quantity button.quantity-btn {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid #ddd;
+    background-color: #6045ff;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+}

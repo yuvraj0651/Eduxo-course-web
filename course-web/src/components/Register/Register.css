@@ -1,0 +1,114 @@
+section.form-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+}
+
+.d-input-block label {
+    display: block;
+}
+
+.register-form__section {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem 1.5rem;
+    max-width: 100%;
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.register-form__header h4 {
+    text-align: center;
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+
+.register-form__input-block label {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.4;
+    padding-bottom: 0.1rem;
+}
+
+.register-form__input-block {
+    padding: 0.4rem 0;
+}
+
+.register-form__input-block .input-box {
+    width: 100%;
+}
+
+.register-form__input-block input {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    letter-spacing: 0.7px;
+}
+
+.register-form__input-block textarea {
+    padding: 0.5rem 1rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    letter-spacing: 0.7px;
+}
+
+.register-form__input-block textarea:focus {
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.register-form__input-block input:focus {
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.gender-block {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.gender-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 0.7rem;
+    padding-top: 0.7rem;
+}
+
+.grid-block {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 3rem;
+}
+
+.submit-button__block button {
+    margin: 1rem 0 0.5rem;
+    width: 100%;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #6045ff;
+    color: #fff;
+    border-radius: 6px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.error-message {
+    color: #ae3f4f;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}

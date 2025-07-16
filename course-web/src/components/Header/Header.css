@@ -1,0 +1,196 @@
+.header-section {
+    border: 1px solid #ddd;
+    padding: 0.7rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.header-section__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-section__logo {
+    max-width: 6.2rem;
+    width: 100%;
+}
+
+.header-section__logo img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.header-section__menu {
+    position: absolute;
+    top: 0%;
+    left: -320px;
+    border: 1px solid #aaa;
+    min-height: 100vh;
+    max-width: 320px;
+    width: 100%;
+    z-index: 999;
+    padding: 1rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #f5f5f5;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-section__menu ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.header-section__menu.opened {
+    left: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 99;
+}
+
+.header-section__menu ul li {
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+    padding: 0.9rem 0.5rem;
+}
+
+.header-section__menu ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #707070;
+    letter-spacing: 0.7px;
+    line-height: 1.3;
+}
+
+.header-section__menu .header-menu__logo {
+    max-width: 5rem;
+    width: 100%;
+}
+
+.header-section__menu .header-menu-top {
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 0.5rem;
+}
+
+.header-section__menu .header-menu__bottom {
+    padding-top: 0.7rem;
+}
+
+.header-section__menu .header-menu__logo img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.header-menu__close-block {
+    position: absolute;
+    top: 0.9rem;
+    right: 1rem;
+}
+
+.header-menu__close-block .close__btn {
+    border: 1px solid #ddd;
+    width: 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.header-section__cta-block {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cta-icon {
+    background-color: rgba(244, 245, 248);
+    border: 1px solid #aaa;
+    width: 2.2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #707070;
+}
+
+.free-trail-button__block a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+    color: #fff;
+}
+
+.free-trail-button__block {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em 0.8em;
+    border-radius: 10px;
+    background-color: #2c2c2c;
+    cursor: pointer;
+    display: none;
+}
+
+.logout__btn {
+    padding: 0.4em 1em;
+    font-family: var(--poppins-font);
+    font-size: 1rem;
+    letter-spacing: 0.7px;
+    font-weight: 500;
+    background-color: var(--primary-color);
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 6px;
+    line-height: 1.5;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spinner-icon {
+    display: block;
+}
+
+.spinnerText {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    margin-left: 1rem;
+}

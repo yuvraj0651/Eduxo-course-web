@@ -1,0 +1,81 @@
+.footer-section {
+    background-color: #000;
+    padding: 4rem 0.6rem;
+}
+
+.footer-contact a {
+    text-decoration: none;
+    color: #ffa036;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    position: relative;
+    padding-bottom: 0.2rem;
+    margin-bottom: 0.4rem;
+}
+
+.footer-contact a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #ffa036;
+}
+
+.footer-section__logo img {
+    max-width: 7rem;
+    width: 100%;
+    height: auto;
+    padding-bottom: 1.5rem;
+}
+
+.footer-section .meta-text {
+    padding-top: 1rem;
+    margin: 0;
+    color: #757575;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.footer-common__block {
+    padding-top: 1.5rem;
+}
+
+.footer-common__block h4 {
+    font-family: var(--lexend-font);
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 0.3px;
+    text-transform: capitalize;
+    padding-bottom: 0.5rem;
+    padding-top: 0.4rem;
+}
+
+.footer-common__block ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+.footer-common__block ul li {
+    list-style: none;
+    padding-bottom: 0.7rem;
+}
+
+.footer-common__block ul li a {
+    text-decoration: none;
+    color: #757575;
+    letter-spacing: 0.4px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-common__block ul li a:hover{
+    color: #fff;
+}
