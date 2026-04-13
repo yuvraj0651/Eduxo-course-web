@@ -34,3 +34,15 @@ It’s ideal for showcasing understanding of:
 - **Styling:** Tailwind CSS, HTML5, CSS3
 - **Languages:** JavaScript (ES6+)
 - **Tools:** Git, GitHub
+
+---
+
+## 🚀 Installation
+
+Clone the repository and run locally:
+
+```bash
+git clone https://github.com/yuvraj0651/Eduxo-course-web.git
+cd Eduxo-course-web
+npm install
+npm run dev
